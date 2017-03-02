@@ -14,7 +14,7 @@ public class GreatestDivisor{
         public static int gcd (int num1, int num2){
             int ans;
             if (num1 > 0){
-                ans = 0;
+                ans = num1;
             }
             else{
                 ans = gcd((num2%num1), num1);
